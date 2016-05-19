@@ -1,7 +1,7 @@
 var User = require('../models/user.js');
 
 exports.get_user = function (req, res) {
-    User.find(function(err, user) {
+    User.find().exec(function(err, user) {
         if (err){
             res.json(err);
         }else if(!user || !user.length){
