@@ -9,7 +9,15 @@ This is a repo for a MEAN2 Stack starter
 3. Start up the server: `npm start`
 5. View in browser at http://localhost:1000
 
-Note: MongoDB will soon be added.
+UPDATES:
+March 18, 2016
+1. Skeleton MEAN Stack with Angular 2 created
 
-Which was then customized to my personal usage on most projects
+May 19, 2016
+1. Mongodb configuration has added.
+2. Sample view, go to http://localhost:1000/api/user to see the return data
+
+TO DO:
+1. Add MongoDB connection to the project with sample REST API (Completed - May 19, 2016)
+1. Integrate API with Angular2's HTTP's component 
 
