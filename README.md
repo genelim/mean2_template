@@ -10,10 +10,10 @@ This is a repo for a MEAN2 Stack starter
 5. View in browser at http://localhost:1000
 
 ## UPDATES:
-March 18, 2016
+###### March 18, 2016
 1. Skeleton MEAN Stack with Angular 2 created
 
-## May 19, 2016
+###### May 19, 2016
 1. Mongodb configuration has added.
 2. Sample view, go to http://localhost:1000/api/user to see the return data
 
