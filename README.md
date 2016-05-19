@@ -15,7 +15,7 @@ This is a repo for a MEAN2 Stack starter
 
 ###### May 19, 2016
 1. Mongodb configuration has added.
-2. Sample view, go to http://localhost:1000/api/user to see the return data
+2. Sample view, go to [http://localhost:1000/api/user] to see the return data
 
 ## TO DO:
 1. Add MongoDB connection to the project with sample REST API (Completed - May 19, 2016)
