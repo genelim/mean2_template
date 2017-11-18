@@ -1,0 +1,97 @@
+{
+  "name": "genelim/mean2_template",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/genelim/mean2_template",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/mean_template",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "mean2_template",
+      "subhead": "Mean stack with Angular 2 Starter Template",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "mean2_template: Mean stack with Angular 2 Starter Template",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "genelim",
+          "repo": "mean2_template"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>MEAN Stack Template Starter</h1>\n<p>This is a repo for a MEAN2 Stack starter</p>\n<ul>\n<li>MongoDB, ExpressJS, Angular2 and NodeJS</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Download the repository</li>\n<li>Install npm modules: <code>npm install</code></li>\n<li>Start up the server: <code>npm start</code></li>\n<li>View in browser at <a href=\"http://localhost:1000\">http://localhost:1000</a></li>\n</ol>\n<h2>UPDATES:</h2>\n<h6>March 18, 2016</h6>\n<ol>\n<li>Skeleton MEAN Stack with Angular 2 created</li>\n</ol>\n<h6>May 19, 2016</h6>\n<ol>\n<li>Mongodb configuration has added.</li>\n<li>Sample view, go to <a href=\"http://localhost:1000/api/user\">http://localhost:1000/api/user</a> to see the return data</li>\n</ol>\n<h2>TO DO:</h2>\n<ol>\n<li>Add MongoDB connection to the project with sample REST API (Completed - May 19, 2016)</li>\n<li>Integrate API with Angular2&apos;s HTTP&apos;s component </li>\n</ol>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/genelim/mean2_template",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/genelim",
+          "text": "genelim"
+        }
+      ]
+    }
+  ]
+}
